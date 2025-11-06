@@ -1,0 +1,15 @@
+.students-table {
+    width: 100%;
+    table-layout: auto; /* Sử dụng 'auto' để bảng tự điều chỉnh kích thước các cột */
+}
+
+.students-table td, .students-table th {
+    padding: 12px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ecf0f1;
+    min-width: 100px; /* Đảm bảo các cột có độ rộng tối thiểu */
+}
+
+.students-table-container {
+    overflow-x: auto; /* Cho phép cuộn ngang nếu bảng rộng hơn */
+}
